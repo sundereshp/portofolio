@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="#">SP</a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="content">
+            <div class="left-content">
+                <img src="images\Screenshot 2024-10-15 161759.png" alt="Your Image" />
+            </div>
+            <div class="right-content">
+                <h1>Place to know about me</h1>
+                <p>Discover my projects and get in touch!</p>
+                <ul class="projects">
+                    <li><a href="project1-link.html">Project 1</a></li>
+                    <li><a href="project2-link.html">Project 2</a></li>
+                    <li><a href="project3-link.html">Project 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>
+                [Your bio goes here. Share your background, skills, and interests.]
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="formMessage"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="https://github.com/sundereshp" target="_blank" aria-label="GitHub">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/sunderesh-p-598928232/" target="_blank" aria-label="LinkedIn">
+                <img src="https://img.icons8.com/ios-filled/30/000000/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/_sync_master/" target="_blank" aria-label="Instagram">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
